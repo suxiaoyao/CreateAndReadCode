@@ -8,24 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		3759298E1D113CC4008EDC1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3759298D1D113CC4008EDC1B /* main.m */; };
-		375929911D113CC4008EDC1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375929901D113CC4008EDC1B /* AppDelegate.m */; };
-		375929941D113CC4008EDC1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375929931D113CC4008EDC1B /* ViewController.m */; };
-		375929971D113CC4008EDC1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375929951D113CC4008EDC1B /* Main.storyboard */; };
 		375929991D113CC4008EDC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375929981D113CC4008EDC1B /* Assets.xcassets */; };
 		3759299C1D113CC4008EDC1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3759299A1D113CC4008EDC1B /* LaunchScreen.storyboard */; };
+		375929B01D11496D008EDC1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375929AE1D11496D008EDC1B /* Main.storyboard */; };
+		375929B41D114978008EDC1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375929B31D114978008EDC1B /* AppDelegate.m */; };
+		375929C21D11499F008EDC1B /* CreateCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375929B91D11499F008EDC1B /* CreateCodeViewController.m */; };
+		375929C31D11499F008EDC1B /* CreateCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375929BA1D11499F008EDC1B /* CreateCodeViewController.xib */; };
+		375929C41D11499F008EDC1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375929BC1D11499F008EDC1B /* ViewController.m */; };
+		375929C51D11499F008EDC1B /* HandleCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 375929C01D11499F008EDC1B /* HandleCodeManager.m */; };
+		375929C81D1149E4008EDC1B /* ShowCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 375929C71D1149E4008EDC1B /* ShowCodeView.m */; };
+		375929CE1D11595A008EDC1B /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375929CD1D11595A008EDC1B /* ScanViewController.m */; };
+		375929D21D115ED8008EDC1B /* ShowScanResulViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375929D01D115ED8008EDC1B /* ShowScanResulViewController.m */; };
+		375929D31D115ED8008EDC1B /* ShowScanResulViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375929D11D115ED8008EDC1B /* ShowScanResulViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		375929891D113CC4008EDC1B /* CreateAndReadCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateAndReadCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3759298D1D113CC4008EDC1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3759298F1D113CC4008EDC1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		375929901D113CC4008EDC1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		375929921D113CC4008EDC1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		375929931D113CC4008EDC1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		375929961D113CC4008EDC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		375929981D113CC4008EDC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3759299B1D113CC4008EDC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3759299D1D113CC4008EDC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375929AF1D11496D008EDC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		375929B21D114978008EDC1B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		375929B31D114978008EDC1B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		375929B81D11499F008EDC1B /* CreateCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCodeViewController.h; sourceTree = "<group>"; };
+		375929B91D11499F008EDC1B /* CreateCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCodeViewController.m; sourceTree = "<group>"; };
+		375929BA1D11499F008EDC1B /* CreateCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCodeViewController.xib; sourceTree = "<group>"; };
+		375929BB1D11499F008EDC1B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		375929BC1D11499F008EDC1B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		375929BF1D11499F008EDC1B /* HandleCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleCodeManager.h; sourceTree = "<group>"; };
+		375929C01D11499F008EDC1B /* HandleCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleCodeManager.m; sourceTree = "<group>"; };
+		375929C61D1149E4008EDC1B /* ShowCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCodeView.h; sourceTree = "<group>"; };
+		375929C71D1149E4008EDC1B /* ShowCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowCodeView.m; sourceTree = "<group>"; };
+		375929CC1D11595A008EDC1B /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		375929CD1D11595A008EDC1B /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		375929CF1D115ED8008EDC1B /* ShowScanResulViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowScanResulViewController.h; sourceTree = "<group>"; };
+		375929D01D115ED8008EDC1B /* ShowScanResulViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowScanResulViewController.m; sourceTree = "<group>"; };
+		375929D11D115ED8008EDC1B /* ShowScanResulViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowScanResulViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +77,9 @@
 		3759298B1D113CC4008EDC1B /* CreateAndReadCode */ = {
 			isa = PBXGroup;
 			children = (
-				3759298F1D113CC4008EDC1B /* AppDelegate.h */,
-				375929901D113CC4008EDC1B /* AppDelegate.m */,
-				375929921D113CC4008EDC1B /* ViewController.h */,
-				375929931D113CC4008EDC1B /* ViewController.m */,
-				375929951D113CC4008EDC1B /* Main.storyboard */,
+				375929B51D11499F008EDC1B /* Moudles */,
+				375929B11D114978008EDC1B /* AppDelegate */,
+				375929AE1D11496D008EDC1B /* Main.storyboard */,
 				375929981D113CC4008EDC1B /* Assets.xcassets */,
 				3759299A1D113CC4008EDC1B /* LaunchScreen.storyboard */,
 				3759299D1D113CC4008EDC1B /* Info.plist */,
@@ -77,6 +94,76 @@
 				3759298D1D113CC4008EDC1B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		375929B11D114978008EDC1B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				375929B21D114978008EDC1B /* AppDelegate.h */,
+				375929B31D114978008EDC1B /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		375929B51D11499F008EDC1B /* Moudles */ = {
+			isa = PBXGroup;
+			children = (
+				375929B61D11499F008EDC1B /* Code */,
+			);
+			path = Moudles;
+			sourceTree = "<group>";
+		};
+		375929B61D11499F008EDC1B /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				375929B71D11499F008EDC1B /* Controller */,
+				375929BD1D11499F008EDC1B /* Model */,
+				375929BE1D11499F008EDC1B /* Utils */,
+				375929C11D11499F008EDC1B /* View */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		375929B71D11499F008EDC1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				375929B81D11499F008EDC1B /* CreateCodeViewController.h */,
+				375929B91D11499F008EDC1B /* CreateCodeViewController.m */,
+				375929BA1D11499F008EDC1B /* CreateCodeViewController.xib */,
+				375929BB1D11499F008EDC1B /* ViewController.h */,
+				375929BC1D11499F008EDC1B /* ViewController.m */,
+				375929CC1D11595A008EDC1B /* ScanViewController.h */,
+				375929CD1D11595A008EDC1B /* ScanViewController.m */,
+				375929CF1D115ED8008EDC1B /* ShowScanResulViewController.h */,
+				375929D01D115ED8008EDC1B /* ShowScanResulViewController.m */,
+				375929D11D115ED8008EDC1B /* ShowScanResulViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		375929BD1D11499F008EDC1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		375929BE1D11499F008EDC1B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				375929BF1D11499F008EDC1B /* HandleCodeManager.h */,
+				375929C01D11499F008EDC1B /* HandleCodeManager.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		375929C11D11499F008EDC1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				375929C61D1149E4008EDC1B /* ShowCodeView.h */,
+				375929C71D1149E4008EDC1B /* ShowCodeView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +197,7 @@
 				TargetAttributes = {
 					375929881D113CC4008EDC1B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GY79FHEQ32;
 					};
 				};
 			};
@@ -136,9 +224,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375929B01D11496D008EDC1B /* Main.storyboard in Resources */,
 				3759299C1D113CC4008EDC1B /* LaunchScreen.storyboard in Resources */,
+				375929D31D115ED8008EDC1B /* ShowScanResulViewController.xib in Resources */,
 				375929991D113CC4008EDC1B /* Assets.xcassets in Resources */,
-				375929971D113CC4008EDC1B /* Main.storyboard in Resources */,
+				375929C31D11499F008EDC1B /* CreateCodeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,29 +239,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				375929941D113CC4008EDC1B /* ViewController.m in Sources */,
-				375929911D113CC4008EDC1B /* AppDelegate.m in Sources */,
+				375929D21D115ED8008EDC1B /* ShowScanResulViewController.m in Sources */,
+				375929B41D114978008EDC1B /* AppDelegate.m in Sources */,
+				375929C51D11499F008EDC1B /* HandleCodeManager.m in Sources */,
 				3759298E1D113CC4008EDC1B /* main.m in Sources */,
+				375929C41D11499F008EDC1B /* ViewController.m in Sources */,
+				375929CE1D11595A008EDC1B /* ScanViewController.m in Sources */,
+				375929C81D1149E4008EDC1B /* ShowCodeView.m in Sources */,
+				375929C21D11499F008EDC1B /* CreateCodeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		375929951D113CC4008EDC1B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				375929961D113CC4008EDC1B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3759299A1D113CC4008EDC1B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3759299B1D113CC4008EDC1B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		375929AE1D11496D008EDC1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375929AF1D11496D008EDC1B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -263,10 +358,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CreateAndReadCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suxiaoyao.CreateAndReadCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +372,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CreateAndReadCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suxiaoyao.CreateAndReadCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +401,7 @@
 				375929A21D113CC4008EDC1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
