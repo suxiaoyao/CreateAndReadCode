@@ -139,4 +139,23 @@ static HandleCodeManager *_instance;
     self.resultBlock(stringValue);
 }
 
+#pragma mark - 识别相册二维码代码
+- (NSString *)detectorQRCodeWithQRCodeImage:(UIImage *)qrCodeImage {
+    // 1.创建过滤器
+    CIDetector *detector = [CIDetector detectorOfType:CIDetectorTypeQRCode context:nil options:nil];
+    
+    // 2.获取CIIImage对象
+    CIImage *ciImage = [[CIImage alloc] initWithImage:qrCodeImage];
+    
+    // 3.识别图片中的二维码
+    NSArray *features = [detector featuresInImage:ciImage];
+    
+    if (features && [features count] > 0) {
+        CIQRCodeFeature *f = features[0];
+        return f.messageString;
+    }else {
+        return @"";
+    }
+}
+
 @end

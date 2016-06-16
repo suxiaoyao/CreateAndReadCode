@@ -29,12 +29,21 @@
                                     <action selector="startReadCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="icO-VC-ixS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Grk-hE-UV8">
+                                <rect key="frame" x="145" y="293" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="相册"/>
+                                <connections>
+                                    <action selector="startOpenAlbum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V92-0i-d8a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="createCodeButton" destination="hsF-nX-TAU" id="nFi-lI-rgu"/>
                         <outlet property="readCodeButton" destination="2Oq-43-UaW" id="TwS-7k-jB2"/>
+                        <outlet property="readFromAlbumButton" destination="Grk-hE-UV8" id="Cvd-6e-4Fv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

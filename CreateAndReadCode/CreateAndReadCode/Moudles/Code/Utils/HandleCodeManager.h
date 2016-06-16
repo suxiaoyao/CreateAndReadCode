@@ -29,4 +29,13 @@
  */
 - (void)startScanningCodeWithInView:(UIView *)inView  scanView:(UIView *)scanView block:(void(^)(NSString *result))block;
 
+/**
+ *  识别二维码图片
+ *
+ *  @param qrCodeImage 二维码的图片
+ *
+ *  @return 结果的数组
+ */
+- (NSString *)detectorQRCodeWithQRCodeImage:(UIImage *)qrCodeImage;
+
 @end
